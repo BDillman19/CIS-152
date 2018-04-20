@@ -1,0 +1,31 @@
+#right{
+    float:right;
+}
+#backToTop{
+    text-align: center;
+}
+.headFoot{
+    background-color:lightblue;
+}
+h1{
+    text-align: center;
+}
+.navItem{
+    font-size:20px;
+}
+.github{
+    font-size: 20px;
+}
+body{
+    background-color: lightcyan;
+    
+}
+article{
+    clear:both;
+}
+figure{
+    float:left;
+}
+#navBar{
+    float:right;
+}

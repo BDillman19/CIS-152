@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+        <title>Bryce Dillman</title>
+        <link rel="stylesheet" href="../css/normalize.css">
+        <link rel="stylesheet" href="../css/site.css">
+        <link rel="stylesheet" href="../script/index.js">
+    </head>
+    <body>
+        <header>
+            
+            <nav>
+            
+                <a href="contact.html" class="navItem" id="cont">Contact</a>
+                <a href="experience.html" class="navItem">Experience</a>
+                <a href="skills.html" class="navItem">Skills</a> 
+                <a href="about.html" class="navItem">About</a>
+                <a href="index.html" class="navItem" id="current">Home</a>
+            </nav>
+<!--            <figure>
+               <img id="myPic" src="../img/BryceDillman.jpg" alt="Bryce Dillman" width="200" height="200"/>
+               <figcaption>Student Picture<sub>at UIUC</sub></figcaption>
+            </figure>   
+-->     
+        </header>
+<!--        SlideShow Container-->
+    <section class="slideshow-container">
+<!--        Images-->
+        <section class="mySlides fade">
+            <img src="../img/ima-juno.jpg" style="width: 100%">
+        </section>
+        <section class="mySlides fade">
+            <img src="../img/logic.jpg" style="width: 100%">
+        </section>
+        <section class="mySlides fade">
+            <img src="../img/vending%20machine.jpg" style="width: 100%">
+        </section>
+        
+<!--        next and prev buttons-->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        
+<!--        the dots-->
+        <section style="text-align: center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </section>
+    </section>
+        <br/>
+        <footer>
+            <small>&copy;Bryce Dillman <span>last updated <time datetime="2018-03-13">march 13, 2018</time></span></small>
+            <a href="#home" id="backToTop">Back to Top</a>
+        </footer>
+    </body>
+</html>

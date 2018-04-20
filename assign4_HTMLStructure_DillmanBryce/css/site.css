@@ -1,0 +1,49 @@
+#myPic{
+    border-style: ridge;
+    border-width:5px;
+    border-color: darkslategrey;
+}
+#contact{
+    padding: 2px;
+    border-style: ridge;
+    border-width: 2px;
+    border-color: darkslategrey;
+}
+#myName{
+    padding: 2px;
+    border-bottom-style: ridge;
+    border-bottom-color: darkslategrey;
+    border-bottom-width: 2px;
+    
+}
+#right{
+    float:right;
+}
+#backToTop{
+    text-align: center;
+}
+.headFoot{
+    background-color:lightblue;
+}
+h1{
+    text-align: center;
+}
+.navItem{
+    font-size:20px;
+}
+.github{
+    font-size: 20px;
+}
+body{
+    background-color: lightcyan;
+    
+}
+article{
+    clear:both;
+}
+figure{
+    float:left;
+}
+#navBar{
+    float:right;
+}

@@ -1,0 +1,82 @@
+/*reset selector*/
+/**{
+    border: 1px solid red !important;
+}
+*/
+/*CSS for the header*/
+header{
+    background-color: lightblue;
+    background: linear-gradient(to right, black, white);
+    margin:2em;
+    margin-bottom: 1em;
+    border-bottom: 2px ridge black;
+    padding-bottom: 5px;
+}
+.navItem{
+    font-size:1em;
+    margin:2em;
+    float: right;   
+}
+#myPic{
+    margin:5px;
+    border-radius: 25px;   
+}
+#cont{
+    text-shadow: 2px 2px 10px darkblue;
+    border: 2px solid black;
+    padding: 2px 2px;
+}
+
+figcaption{
+    color: darkslategrey;
+}
+
+
+/*CSS for the body*/
+body{
+    font-size: 100%;
+    width: 800px;
+    margin: 5em;
+    border: 3px ridge black;
+    padding: 20px 20px;
+    background-color: lightgrey;
+    font-family:sans-serif;
+}
+#right{
+    float:right;
+}
+#backToTop{
+    text-align: center;
+    padding: 0px 5px;
+}
+
+h1{
+    text-align: center;
+}
+
+.github{
+    font-size: 1em;
+}
+
+article{
+    clear:both;
+}
+figure{
+    float:left;
+    margin: 2em;
+}
+a:hover{
+    font-style: italic;
+}
+a:link{
+    color: darkblue;
+}
+/*CSS in the article*/
+article h1{
+    font-family: serif;
+}
+/*CSS for the footer*/
+footer{
+    background-color: lightblue;
+    margin: 2em;
+}
